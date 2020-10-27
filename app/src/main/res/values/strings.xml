@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MIPT_PD2</string>
+    <string name="ayooo_waddup">Ayooo, waddup</string>
+    <string name="text_Input">Enter text</string>
+    <string name="btn_Calculate">Calculate</string>
+    <string name="resultText">I will do good soon.</string>
+
+    <string-array name="chars_words_array">
+        <item>Characters</item>
+        <item>Words</item>
+    </string-array>
+
+</resources>
