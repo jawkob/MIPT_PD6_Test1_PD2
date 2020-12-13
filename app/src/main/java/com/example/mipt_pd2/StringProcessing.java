@@ -30,13 +30,18 @@ public class StringProcessing {
     }
 
     public static int charCounter(String input) {
-        int charCount = 0;
 
-        for(int i = 0; i < input.length(); i++) {
-            if(input.charAt(i) != ' ')
-                charCount++;
+        if (input != null){
+            int charCount = 0;
+            for(int i = 0; i < input.length(); i++) {
+                if(input.charAt(i) != ' ')
+                    charCount++;
+            }
+            return charCount;
         }
-        return charCount;
+        else
+            return 0;
+
     }
 
 }
